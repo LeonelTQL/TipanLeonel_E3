@@ -26,7 +26,7 @@ describe('Pruebas unitarias de book.js', () => {
   describe('isValidBookCode()', () => {
     test('código válido', () => {
       expect(isValidBookCode('TIP101')).toBe(true);
-      expect(isValidBookCode('CAS101')).toBe(true);
+      expect(isValidBookCode('LAT101')).toBe(true);
     });
 
     test('código inválido', () => {

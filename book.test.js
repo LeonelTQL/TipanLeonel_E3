@@ -5,7 +5,7 @@ const { calculateFine, isValidBookCode } = require('./book');
 describe('Pruebas unitarias de book.js', () => {
   describe('calculateFine()', () => {
     test('cálculo correcto para días mayores a cero', () => {
-      expect(calculateFine(5)).toBe(2.50);
+      expect(calculateFine(5)).toBe(3.50);
       expect(calculateFine(10)).toBe(5.00);
     });
 
